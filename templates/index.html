@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container index-container">
+  <h1>Mason Lauderdale</h1>
+  <h2>
+    Senior computer science student @ 
+    <span>Tennessee Tech</span>.
+  </h2>
+  <h2>
+    Passionate about 
+    <span>software development</span>, 
+    <span>scripting</span>, 
+    and
+    <span>  detail-oriented engineering</span>.
+  </h2>
+  <nav class="nav index-nav">
+    <div class="nav-left">
+      <div class="tabs">
+        <a href="/blog/2024">Blog</a>
+        <a href="/about">About</a>
+        <a href="/resume">Resume</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="tabs">
+        <a href="https://www.github.com/mevanl">
+          <img src="../static/imgs/github-mark-white.svg" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/mevanl/">
+          <img src="../static/imgs/In-White-128.png" alt="LinkedIn">
+        </a>
+        <a href="https://bsky.app/profile/mevanl.bsky.social">
+          <img src="../static/imgs/Bluesky_Logo.svg" alt="Bluesky">
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+{% endblock %}

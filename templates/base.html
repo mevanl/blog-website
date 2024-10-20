@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <script src="https://unpkg.com/htmx.org@2.0.2"></script>
-  <link rel="stylesheet" href="https://unpkg.com/chota@latest">
 
+<html>
   <head>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <title>{% block title %}{% endblock %}</title>
-  </head>
+  </head> 
 
   <body>
+    {% block nav %}{% endblock %}
     {% block content %}{% endblock %}
   </body>
   

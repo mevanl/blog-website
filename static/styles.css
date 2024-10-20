@@ -1,0 +1,68 @@
+:root 
+{
+  --bg-color: #0f0f0e;
+  --font-color: #d4cec9;
+  --font-family: "JetBrains Mono", monospace;
+
+  /* My Custom Colors */
+  --rose: #d7827e; 
+}
+
+.tabs > a
+{
+  color: #d4cec9;
+}
+
+.nav .brand 
+{
+  color: #d4cec9
+}
+
+
+.index-container 
+{
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  justify-content: center;  
+
+  font-family: "JetBrains Mono", monospace;
+}
+
+.index-container > h1
+{
+  font-size: 3.5em;
+  margin-bottom: 0;
+}
+
+.index-container > h2 
+{
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.index-container > h1 > span
+{
+  border-bottom: 2px solid var(--rose);
+}
+
+.index-container > h2 > span
+{
+  border-bottom: 2px solid var(--rose);
+}
+
+.index-nav 
+{
+  margin-top: 10px;
+}
+
+.index-nav > div.nav-left > div.tabs > a
+{
+  margin-right: 10px;
+}
+
+.index-nav > div.nav-right > div.tabs > a
+{
+  margin-right: 10px;
+}
